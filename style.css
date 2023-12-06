@@ -1,0 +1,404 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 80%), url(netflix\ background\ image.png);
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 12px solid rgb(41, 41, 41);
+}
+
+.logo {
+    width: 166.5px;
+    margin-left: 12%;
+    margin-top: 2%;
+}
+
+.logo-signin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in {
+    margin-right: 10%;
+    background-color: #e50914;
+    border: 0;
+    font-size: 0.8rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 4px;
+    color: white;
+    position: relative;
+    top: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-content {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 100px;
+    line-height: 60px;
+}
+
+.header-content h1 {
+    font-weight: 900;
+    font-size: 53px;
+    white-space: nowrap;
+
+}
+
+.header-content h3 {
+    font-size: 1.5rem;
+}
+
+.header-content h5 {
+    font-size: 1.25rem;
+}
+
+.email-box {
+    background-color: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    overflow: hidden;
+}
+
+.email-box input {
+    flex: 1;
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.email-box button {
+    background-color: #e50914;
+    border: 0;
+    outline: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: 900;
+    cursor: pointer;
+    padding: 25px 30px;
+}
+
+.email-box {
+    width: 50%;
+    margin-left: 25%;
+}
+
+/* MAIN FEATURE */
+
+.features {
+    font-size: 22px;
+}
+
+.main-1 {
+    height: 480px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    border-bottom: 12px solid rgb(41, 41, 41);
+    padding: 50px 12%;
+}
+
+.main-1-text {
+    position: relative;
+    top: 100px;
+}
+
+.main-1 h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.main-1 p {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 40%;
+    margin-top: 18px;
+}
+
+.main-1 img {
+    height: 100%;
+    width: 70%;
+    position: relative;
+    left: 85%;
+    bottom: 190px;
+}
+
+.main-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 480px;
+    padding: 50px 0;
+    border-bottom: 12px solid rgb(41, 41, 41);
+}
+
+.main-2-text {
+    color: white;
+}
+
+.main-2 h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 119%;
+}
+
+.main-2 p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 525;
+    font-style: italic;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 18px;
+}
+
+.main-2 img {
+    width: 90%;
+    padding-left: 33%;
+    padding-top: 18%;
+}
+
+.main-3 {
+    height: 280px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    border-bottom: 12px solid rgb(41, 41, 41);
+    padding: 50px 12%;
+}
+
+
+.main-3 h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.main-3 p {
+    font-family: sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-right: 40%;
+    margin-top: 18px;
+}
+
+.main-3 img {
+    height: 100%;
+    width: 70%;
+    position: relative;
+    left: 85%;
+    bottom: 190px;
+}
+
+.main-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 480px;
+    padding: 50px 0;
+    border-bottom: 12px solid rgb(41, 41, 41);
+}
+
+.main-4-text {
+    color: white;
+}
+
+.main-4 h2 {
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 2.8rem;
+    padding-right: 20%;
+    padding-left: 20%;
+    line-height: 119%;
+}
+
+.main-4 p {
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 525;
+    font-style: italic;
+    padding-right: 20%;
+    padding-left: 20%;
+    margin-top: 18px;
+}
+
+.main-4 img {
+    width: 110%;
+    padding-left: 35%;
+    padding-top: 16%;
+}
+
+/* questions */
+
+.faq {
+    color: white;
+    text-align: center;
+    padding: 40px 12%;
+    margin-top: 1%;
+    border-bottom: 12px solid rgb(41, 41, 41);
+}
+
+.faq h2 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+.accordion {
+    margin-top: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 150%;
+    padding: 5px;
+}
+
+#accordion {
+    margin-top: 2%;
+}
+.accordion li label{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    font-family: sans-serif;
+}
+
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.2ms;
+}
+
+input[type="radio"]{
+    display: none;
+}
+
+.accordion .content{
+    background-color: #303030;
+    text-align: center;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s, padding 0.2s;
+    font-size: 1.5rem;
+    text-align: left;
+    font-family: sans-serif;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after {
+    transform: rotate(135deg);
+}
+.simple-para-for-membership{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    line-height: 100px;
+}
+
+/* footer panel */
+
+.footer-panel-main {
+    color: white;
+    font-family: sans-serif;
+    margin-top: 6% ;
+    margin-left: 10%;
+}
+.footer-panel-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30%;
+    font-size: 0.9rem;
+}
+.footer-panel-main a{
+    color: rgba(255,255,255,0.7);
+    font-style: italic;
+}
+
+.footer-panel1 a{
+    display: block;
+}
+
+.footer-panel2 a{
+    display: block;
+}
+
+.footer-panel3 a{
+    display: block;
+}
+ul a{
+    margin-top: 18px;
+}
+#first-anchortag-inUL {
+    margin-top: 35px;
+}
+.language_select{
+    width: 130px;
+    height: 35px;
+    border-radius: 5%;
+    background-color: rgb(26, 26, 26);
+    margin-left: 10%;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    margin-top: 29px;
+}
+
+.netflixpak-lastpara {
+    color: rgba(255,255,255,0.7);
+    font-family: sans-serif;
+    margin-left: 10%;   
+    margin-top: 29px;
+    font-style: italic;
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+}
